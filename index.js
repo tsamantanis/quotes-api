@@ -16,7 +16,7 @@ const quotes = JSON.parse(fs.readFileSync(quotesFilePath, 'utf-8'));
 // List of random text colors (in HEX format)
 const colors = [
   "#C75914",
-  "#E3B93B", // Soft peach
+  "#D6A81F", // Soft peach
   "#135290", // Soft coral
   "#00888F", // Muted lavender
   "#513CAE", // Muted terracotta
