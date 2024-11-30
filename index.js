@@ -15,16 +15,17 @@ const quotes = JSON.parse(fs.readFileSync(quotesFilePath, 'utf-8'));
 
 // List of random text colors (in HEX format)
 const colors = [
-  "#F6E4D0", // Soft peach
-  "#F7B3A0", // Soft coral
-  "#E0C1D1", // Muted lavender
-  "#D46B3B", // Muted terracotta
-  "#9B4D28", // Deep rust
-  "#4B3F33", // Dark brown
-  "#4A4A48", // Charcoal gray
-  "#F1C6A1", // Warm light beige
-  "#D8A7A2", // Dusty rose
-  "#C2A0C0"  // Soft mauve
+  "#C75914",
+  "#E3B93B", // Soft peach
+  "#135290", // Soft coral
+  "#00888F", // Muted lavender
+  "#513CAE", // Muted terracotta
+  "#A45E45", // Deep rust
+  "#997F0B", // Dark brown
+  "#F55F3D", // Charcoal gray
+  "#62871D", // Warm light beige
+  "#142352", // Dusty rose
+  "#45555F"  // Soft mauve
 ];
 
 // Function to generate background color with 20% opacity
