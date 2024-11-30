@@ -1,9 +1,13 @@
 const express = require('express');
+const cors = require('cors');  // Importing cors
 const fs = require('fs');
 const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+// Use cors middleware
+app.use(cors());
 
 // Load quotes from the JSON file
 const quotesFilePath = path.join(__dirname, 'quotes.json');
@@ -20,4 +24,3 @@ app.get('/quote', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
